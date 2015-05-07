@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SequencesModelStoreContainer" CdmEntityContainer="SequencesEntities">
+    <EntitySetMapping Name="tbl_pairs">
+      <EntityTypeMapping TypeName="SequencesModel.tbl_pairs">
+        <MappingFragment StoreEntitySet="tbl_pairs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="throw" ColumnName="throw" />
+          <ScalarProperty Name="thrown" ColumnName="thrown" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
