@@ -70,7 +70,6 @@ namespace Dice_Simulation
 
             // Get second sequence of doubles rolled for user to view.
             var query2 = from int num in roll2
-                         where num > 0
                          orderby num ascending
                          select num;
             foreach (int num in query2)
